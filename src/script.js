@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (anime) {
             animeContainer.innerHTML = `
                 <h2>${anime.title}</h2>
-                <img src="${anime.images.jpg.large_image_url}" alt="${anime.title}" style="max-width: 100%; height: 450px;">
+                <img src="${anime.images.jpg.large_image_url}" alt="${anime.title}" style="max-width: 100%; height: 400px;">
             `;
         }
     }
