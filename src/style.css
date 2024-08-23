@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
 *,
 *::before,
 *::after {
@@ -19,19 +22,39 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 75vh;
     background-color: #f0f0f0;
+    
 }
 
 main {
     text-align: center;
     padding: 2rem;
     background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-height: 900px;
+    
+    
+    
 }
+#anime-container {
+    max-height: 200px;
+    
+    
+}   
 
 
+
+.molho {
+    font-family: "Baskervville SC", serif;
+    font-size: 30px;
+    
+    
+}
+h3 {
+    font-family: "Baskervville SC", serif;
+    font-weight: 200;
+    font-size: 10px;
+}
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1rem;
@@ -50,6 +73,16 @@ h1 {
   letter-spacing: -1px;
   text-transform: uppercase;
   color:  #f1683a;
+}
+
+
+molho {
+    
+    font-family: Poppins;
+    font-size: 1.9rem;
+    Color: black;
+    text-align: center;
+    
 }
 
 .section {
@@ -117,7 +150,7 @@ h1 {
   height: auto;
   overflow: hidden;
   padding-block: 3rem 2rem;
-  background: white;
+  background: var(--color-white-100);
   box-shadow: var(--shadow-medium);
   transition: all 0.45s ease-in-out;
 }
@@ -149,7 +182,7 @@ h1 {
   padding: 0.625rem 1.875rem;
 }
 #anime-button {
-    display: inline-block;
+  display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
@@ -157,9 +190,13 @@ h1 {
   background: linear-gradient(to right, orange, red);
   border-radius: 5rem;
   transition: 0.3s ease-in-out;
-  border: 2px solid #c2c2c2;
-  margin-left: ;
+  border: 1px solid #c2c2c2;
   padding: 0.625rem 1.875rem;
+  height: 40px;
+}
+#anime-button:hover {
+    background: #f1683a;
+   
 }
 
 .menu-link {
@@ -260,4 +297,26 @@ h1 {
 .burger.is-active .burger-line:nth-child(3) {
   top: 0.5rem;
   transform: rotate(-135deg);
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    color: black;
+    font-size: 5px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.footer-content img {
+    width: 20px; 
+    margin: 0 10px;
 }
