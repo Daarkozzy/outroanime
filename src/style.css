@@ -117,7 +117,7 @@ h1 {
   height: auto;
   overflow: hidden;
   padding-block: 3rem 2rem;
-  background: var(--color-white-100);
+  background: white;
   box-shadow: var(--shadow-medium);
   transition: all 0.45s ease-in-out;
 }
