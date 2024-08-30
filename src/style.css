@@ -23,7 +23,7 @@ body {
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    overflox: hidden;
+    overflow: hidden;
     
     
 }
