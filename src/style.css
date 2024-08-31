@@ -155,6 +155,7 @@ h3 {
   border: 2px solid #c2c2c2;
   margin-left: ;
   padding: 0.625rem 1.875rem;
+  cursor: pointer;
 }
 #anime-button {
   display: inline-block;
