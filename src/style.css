@@ -83,7 +83,7 @@ h3 {
   height: 9%;
   margin: 0 auto;
   background: #f1683a;
-  box-shadow: var(--shadow-medium);
+  box-shadow: 1px 1px 10px black;
 }
 
 .navbar {
