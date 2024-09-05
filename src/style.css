@@ -115,6 +115,8 @@ h3 {
   color:  white;
 }
 
+.brand:hover {
+ color: white;
 
 
 .menu {
@@ -125,9 +127,11 @@ h3 {
   height: auto;
   overflow: hidden;
   padding-block: 3rem 2rem;
-  background: var(--color-white-100);
-  box-shadow: var(--shadow-medium);
+  background: #f1683a;
+  box-shadow: 1px 1px black;
   transition: all 0.45s ease-in-out;
+  font-size: 2.1rem;
+  font-family: "Poppins", sans-serif;
 }
 .menu.is-active {
   top: 0;
@@ -143,20 +147,7 @@ h3 {
 
 }
 
-.fazer-login {
-  display: inline-block;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #fff;
-  font-weight: 500;
-  background: linear-gradient(to right, orange, red);
-  border-radius: 5rem;
-  transition: 0.3s ease-in-out;
-  border: 2px solid #c2c2c2;
-  margin-left: ;
-  padding: 0.625rem 1.875rem;
-  cursor: pointer;
-}
+
 #anime-button {
   display: inline-block;
   text-decoration: none;
