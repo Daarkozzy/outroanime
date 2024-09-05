@@ -179,7 +179,7 @@ h3 {
   font-weight: bold;
   line-height: inherit;
   text-transform: uppercase;
-  color: var(--color-black-500);
+  color: white;
   transition: all 0.35s ease-in-out;
 }
 .menu-link:hover {
