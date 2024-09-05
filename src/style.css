@@ -176,7 +176,7 @@ h3 {
 .menu-link {
   font-family: inherit;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: bold;
   line-height: inherit;
   text-transform: uppercase;
   color: var(--color-black-500);
