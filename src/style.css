@@ -318,3 +318,17 @@ select {
     border-radius: 4px;
     font-size: 16px;
 }
+#loadingSpinner {
+    display: none; 
+    position: fixed; 
+    top: 60%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    z-index: 1000; 
+}
+
+#loadingSpinner img {
+    width: 100px; 
+    height: auto;
+}
