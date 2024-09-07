@@ -73,6 +73,14 @@ h3 {
   background: #f1683a;
   box-shadow: 0.0625rem 0.0625rem 0.625rem black; 
 }
+@media only screen and (max-width: 480px) {
+   h3 {
+      font-size: 0.8rem;
+  }
+  .molho {
+      font-size: 1.3rem;
+  }
+}
 
 @media only screen and (min-width: 48rem) { 
   .header {
