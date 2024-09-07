@@ -310,7 +310,7 @@ footer {
     width: 20px; 
     margin: 0 10px;
 }
-/* Estilo do Filtro de Gêneros */
+
 select {
     padding: 10px;
     margin-bottom: 15px;
@@ -336,9 +336,9 @@ select {
   top: 88%;
   position: fixed;
   left: 90%;
-   transform: translate(-50%, -50%); 
-    text-align: center;
-    z-index: -1; 
+  transform: translate(-50%, -50%); 
+  text-align: center;
+  z-index: -1; 
   
 }
 
